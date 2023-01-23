@@ -1,0 +1,174 @@
+body
+{
+    background-color: white;
+    margin: 0 !important;
+    font-family: 'Lato', sans-serif;
+}
+#container
+{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+#header
+{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+.icon-search:hover
+{
+    text-shadow: 2px 2px 15px rgba(255, 255, 255, 1);
+}
+#logo
+{
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+ul
+{
+    width: 800px;
+    padding: 0;
+    margin-top: 12px;
+    list-style-type: none;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 300;
+}
+ul a
+{
+    color: white;
+    text-decoration: none; 
+    display: block;
+}
+ul a:hover
+{
+    text-shadow: 2px 2px 15px rgba(255, 255, 255, 1);
+}
+ul > li
+{
+    float: left;
+    width: 90px;
+    height: auto;
+    padding: 20px;
+}
+ul > li:first-child
+{
+    margin-left: 20px;
+}
+#content
+{
+    width: 1000px;
+    background-color: white;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+    display: inline-block;
+}
+#sideleft
+{
+    background-color: white;
+    width: 150px;
+    float: left;
+    box-shadow: inset -100px 0px 3px -100px grey;
+}
+#sideright
+{
+    background-color: white;
+    width: 150px;
+    height: auto;
+    float: right;
+}
+#headerart
+{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-bottom: 3px dotted #04395c;
+}
+#opislogo
+{
+    float: right; 
+    padding: 10px;
+    color: #04395c;
+    font-size: 25px;
+    margin-top: 23px;
+    font-weight: 400;
+}
+#logodom
+{
+    display: inline-block;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 18px;
+    text-align: left;
+    color: #04395c;
+}
+ol a:hover
+{
+    text-shadow: 1px 1px 15px #04395c;
+}
+.line
+{
+    width: 100px;
+    border-bottom: 3px dotted #04395c;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ol > li
+{
+    color: #04395c;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+}
+ol > li a
+{
+    font-size: 16px;
+    color: #04395c;
+    text-decoration: none;
+}
+#footer
+{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #04395c;
+    height: 80px;
+    float: bottom;
+}
+
+#tekst
+{
+    color: #04395c;
+    font-size: 15px;
+    width: 1000px;
+    columns: 2;
+    column-gap: 20px;
+    text-align: justify;
+}
+h2
+{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
